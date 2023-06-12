@@ -33,7 +33,8 @@ For detailed information about the API routes and methods, please refer to the [
    ```bash
    git clone https://github.com/your-username/blog-website.git
 2. Install dependencies:
-    ``` go mod download
+    ```bash
+   go mod download
 3.Set up your MongoDB connection by updating the configuration in config.go.
 
 4.Build and run the application:

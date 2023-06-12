@@ -1,0 +1,49 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Executables
+*.exe
+*.out
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Go specific
+*.test
+*.prof
+
+# Logs
+*.log
+
+# Compiled Binary for coverage analysis
+*.cover
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# Editor temporary files
+*~
+
+# IDE specific files
+.idea/
+*.iml
+
+# Build output directories
+/bin/
+/build/
+
+# Compiled output
+*.rsc
+
+# Swagger docs
+/docs/swagger/
+
+# Environment variables file
+.env
+

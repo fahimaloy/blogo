@@ -31,7 +31,7 @@ For detailed information about the API routes and methods, please refer to the [
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/blog-website.git
+   git clone https://github.com/fahimaloy/blogo.git
 2. Install dependencies:
     ```bash
    go mod download

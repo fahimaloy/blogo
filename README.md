@@ -35,10 +35,11 @@ For detailed information about the API routes and methods, please refer to the [
 2. Install dependencies:
     ```bash
    go mod download
-3.Set up your MongoDB connection by updating the configuration in config.go.
+3. Set up your MongoDB connection by updating the configuration in config.go.
 
-4.Build and run the application:
-    ``` go run main.go
+4. Build and run the application:
+    ```bash
+   go run main.go
 5. Open your web browser and navigate to http://localhost:8080 to access the blog website.
 
 ## Contributing

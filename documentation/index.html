@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>API Documentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin-top: 30px;
+    }
+    code {
+      background-color: #f4f4f4;
+      padding: 2px 4px;
+      font-size: 0.9em;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>API Documentation</h1>
+  
+  <h2>Routes</h2>
+
+  <table>
+    <tr>
+      <th>Method</th>
+      <th>Path</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><code>GET</code></td>
+      <td>/api/blogs</td>
+      <td>Get all blogs</td>
+    </tr>
+    <tr>
+      <td><code>GET</code></td>
+      <td>/api/blogs/:id</td>
+      <td>Get a specific blog by ID</td>
+    </tr>
+    <tr>
+      <td><code>POST</code></td>
+      <td>/api/blogs</td>
+      <td>Create a new blog</td>
+    </tr>
+    <tr>
+      <td><code>PUT</code></td>
+      <td>/api/blogs/:id</td>
+      <td>Update a specific blog by ID</td>
+    </tr>
+    <tr>
+      <td><code>DELETE</code></td>
+      <td>/api/blogs/:id</td>
+      <td>Delete a specific blog by ID</td>
+    </tr>
+    <!-- Add more routes as necessary -->
+  </table>
+
+  <h2>Methods</h2>
+
+  <h3>getAuthenticatedUserID(c *gin.Context)</h3>
+  <p>Returns the authenticated user ID extracted from the token.</p>
+  <p>Parameters:</p>
+  <ul>
+    <li><code>c</code> - The Gin context</li>
+  </ul>
+  <p>Returns:</p>
+  <ul>
+    <li><code>string</code> - The authenticated user ID</li>
+    <li><code>error</code> - An error if authentication fails</li>
+  </ul>
+  
+  <!-- Add more methods as necessary -->
+</body>
+</html>
+
